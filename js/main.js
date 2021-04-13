@@ -401,7 +401,7 @@
         // Show or hide the sticky footer button
         $(window).on('scroll', function() {
             if ($(window).scrollTop() >= pxShow) {
-                goTopButton.fadeIn(fadeInTime);
+                //goTopButton.fadeIn(fadeInTime);
             } else {
                 goTopButton.fadeOut(fadeOutTime);
             }

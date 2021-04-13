@@ -98,7 +98,7 @@ body {
  * ------------------------------------------------------------------- */
 
 a {
-    color: #862121;
+    color: #FFFFFF;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -377,7 +377,7 @@ ul.disc li::before {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #862121;
+    background: #FFFFFF;
     position: absolute;
     left: -17px;
     top: 11px;
@@ -386,7 +386,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: #862121;
+    color: #FFFFFF;
 }
 
 dd {
@@ -517,7 +517,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #862121;
+    background: #FFFFFF;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -562,7 +562,7 @@ form,
     margin-left: -30px;
     margin-top: -30px;
     padding: 0;
-    background-color: #862121;
+    background-color: #FFFFFF;
     border-radius: 100%;
     -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
     animation: sk-scaleout 1.0s infinite ease-in-out;
@@ -830,8 +830,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus, 
 input[type="reset"].btn--primary:focus, 
 input[type="button"].btn--primary:focus {
-    background: #862121;
-    border-color: #862121;
+    background: #FFFFFF;
+    border-color: #FFFFFF;
 }
 
 
@@ -860,8 +860,8 @@ input[type="button"].btn--primary:focus {
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
-    border: 0.3rem solid #862121;
-    color: #862121;
+    border: 0.3rem solid #FFFFFF;
+    color: #FFFFFF;
 }
 
 .btn--pill, button.btn--pill {
@@ -1087,7 +1087,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-    color: #862121;
+    color: #FFFFFF;
 }
 
 .stats-tabs li a em {
@@ -1276,7 +1276,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-intro h3 {
     font-family: "montserrat-semibold", sans-serif;
     font-size: 2rem;
-    color: #862121;
+    color: #000000;
     text-transform: uppercase;
     letter-spacing: .15rem;
     margin-top: 0;
@@ -1380,11 +1380,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .blog-list .blog-date {
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.5rem;
-    color: #862121;
+    color: #FFFFFF;
 }
 
 .blog-list .blog-date a {
-    color: #862121;
+    color: #FFFFFF;
 }
 
 .blog-list .blog-date a:hover, 
@@ -1409,7 +1409,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .blog-list .blog-cat a:hover, 
 .blog-list .blog-cat a:focus, 
 .blog-list .blog-cat a:active {
-    color: #862121;
+    color: #FFFFFF;
 }
 
 .blog-list .blog-cat a::after {
@@ -1460,7 +1460,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .s-header {
     width: 100%;
     height: 72px;
-    background-color: transparent;
+    background-color: #000000;
     position: absolute;
     top: 0;
     z-index: 500;
@@ -1655,12 +1655,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .header-nav li a {
     display: block;
     line-height: 72px;
-    color: #FFFFFF;
+    color: #5F5F5F;
 }
 
 .header-nav li.current a {
     font-family: "montserrat-extrabold", sans-serif;
-    color: #af2b2b;
+    color: #FFFFFF;
 }
 
 
@@ -1775,7 +1775,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content h3 {
     font-family: "montserrat-bold", sans-serif;
     font-size: 1.8rem;
-    color: #862121;
+    color: #FFFFFF;
     text-transform: uppercase;
     letter-spacing: .5rem;
     position: relative;
@@ -1789,7 +1789,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     content: "";
     width: 60px;
     height: 2px;
-    background-color: #862121;
+    background-color: #FFFFFF;
     margin-top: -1.5px;
     position: absolute;
     left: 0;
@@ -1852,8 +1852,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::after {
-    border-bottom: 2px solid #922424;
-    border-right: 2px solid #922424;
+    border-bottom: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
     content: '';
     display: block;
     height: 8px;
@@ -1907,19 +1907,19 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-social li {
     position: relative;
-    height: 3.6rem;
+    height: 8rem;
 }
 
 .home-social i, .home-social span {
     position: absolute;
     top: 0;
-    line-height: 3.6rem;
+    line-height: 8rem;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
 
 .home-social i {
-    font-size: 1.8rem;
+    font-size: 4rem;
     right: 0;
     -webkit-transform: scale(0.7);
     -ms-transform: scale(0.7);
@@ -2205,6 +2205,9 @@ html.no-csstransitions .home-content__main {
 
 .about-content {
     margin-bottom: 3rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 .about-content .left {
@@ -2859,7 +2862,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-blog {
-    padding-top: 15rem;
+    padding-top: 0rem;
     padding-bottom: 9.6rem;
     background-color: #FFFFFF;
     position: relative;
@@ -2982,7 +2985,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats__col--highlight .stats__count::after {
-    background-color: #862121;
+    background-color: #FFFFFF;
 }
 
 .stats__col--highlight h4 {
@@ -3094,7 +3097,7 @@ html.no-csstransitions .home-content__main {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #862121;
+    background: #FFFFFF;
 }
 
 .s-contact .form-field label::after {
@@ -3105,7 +3108,7 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #862121;
+    border-right: 5px solid #FFFFFF;
 }
 
 .contact__main {
@@ -3149,8 +3152,8 @@ html.no-csstransitions .home-content__main {
 
 .contact__form button {
     margin-top: 4.2rem;
-    background-color: #862121;
-    border-color: #862121;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
 }
 
 .message-warning, .message-success {
@@ -3310,7 +3313,7 @@ footer {
 }
 
 footer a, footer a:visited {
-    color: #862121;
+    color: #FFFFFF;
 }
 
 footer a:hover, footer a:focus {
