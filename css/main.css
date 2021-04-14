@@ -98,7 +98,7 @@ body {
  * ------------------------------------------------------------------- */
 
 a {
-    color: #FFFFFF;
+    color: #000000;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -815,8 +815,8 @@ button.btn--primary,
 input[type="submit"].btn--primary, 
 input[type="reset"].btn--primary, 
 input[type="button"].btn--primary {
-    background: #0D0A0B;
-    border-color: #0D0A0B;
+    background: #545454;
+    border-color: #545454;
     color: #FFFFFF;
 }
 
@@ -830,8 +830,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus, 
 input[type="reset"].btn--primary:focus, 
 input[type="button"].btn--primary:focus {
-    background: #FFFFFF;
-    border-color: #FFFFFF;
+    background: #545454;
+    border-color: #545454;
 }
 
 
@@ -1358,12 +1358,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-top: .3rem;
     margin-bottom: 2.1rem;
     padding-bottom: 2.4rem;
-    color: #0D0A0B;
+    color: #191A3F;
     position: relative;
 }
 
 .blog-list h2 a {
-    color: #0D0A0B;
+    color: #191A3F;
 }
 
 .blog-list h2::after {
@@ -1380,11 +1380,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .blog-list .blog-date {
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.5rem;
-    color: #FFFFFF;
+    color: #545454;
 }
 
 .blog-list .blog-date a {
-    color: #FFFFFF;
+    color: #545454;
 }
 
 .blog-list .blog-date a:hover, 
@@ -1409,7 +1409,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .blog-list .blog-cat a:hover, 
 .blog-list .blog-cat a:focus, 
 .blog-list .blog-cat a:active {
-    color: #FFFFFF;
+    color: #545454;
 }
 
 .blog-list .blog-cat a::after {
@@ -2197,8 +2197,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-about {
-    padding-top: 15rem;
-    padding-bottom: 9rem;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
     background-color: #FFFFFF;
     position: relative;
 }
@@ -2862,7 +2862,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-blog {
-    padding-top: 0rem;
+    padding-top: 9rem;
     padding-bottom: 9.6rem;
     background-color: #FFFFFF;
     position: relative;
