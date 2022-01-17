@@ -787,8 +787,8 @@ input[type="button"] {
     white-space: nowrap;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #c5c5c5;
-    border: .3rem solid #c5c5c5;
+    background-color: #000000;/*#c5c5c5;*/
+    border: .3rem solid #000000;/*#c5c5c5;*/
 }
 
 .btn:hover, 
@@ -815,8 +815,8 @@ button.btn--primary,
 input[type="submit"].btn--primary, 
 input[type="reset"].btn--primary, 
 input[type="button"].btn--primary {
-    background: #545454;
-    border-color: #545454;
+    background: #000000;/*#545454;*/
+    border-color: #000000;/*#545454;*/
     color: #FFFFFF;
 }
 
